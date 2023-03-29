@@ -9,7 +9,7 @@ CREATE TABLE "Payment" (
     "paid_date" TIMESTAMP(3) NOT NULL,
     "amount" TEXT NOT NULL,
     "trafik" TEXT NOT NULL,
-    "number" TEXT NOT NULL,
+    "phone" TEXT NOT NULL,
     "status" "Status" NOT NULL,
 
     CONSTRAINT "Payment_pkey" PRIMARY KEY ("id")
